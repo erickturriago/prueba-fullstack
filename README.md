@@ -34,16 +34,16 @@ project/
 
 ## Instalación
 
-2. Clonar el repositorio
+1. Clonar el repositorio
    ```sh
    git clone https://github.com/erickturriago/prueba-fullstack.git
    ```
-3. Instalar dependencias del Backend
+2. Instalar dependencias del Backend
    ```sh
    cd backend
    npm install
    ```
-4. Configurar variables de entorno (archivo .env)
+3. Configurar variables de entorno (archivo .env)
    ```js
     DB_USER=postgres
     DB_HOST=localhost
@@ -52,7 +52,7 @@ project/
     DB_PORT=5432
     PORT=3000
    ```
-5. Instalar dependencias del Frontend
+4. Instalar dependencias del Frontend
    ```sh
    cd frontend
    npm install
