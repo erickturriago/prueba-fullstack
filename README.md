@@ -98,4 +98,4 @@ Prueba de Backend usando Thunder Client
 ![App Fullstack Test Backend](https://github.com/user-attachments/assets/35834bb9-f9ce-4589-9776-291d1827f583)
 
 Prueba de Frontend
-
+![App Fullstack Test Frontend](https://github.com/user-attachments/assets/4c8237c7-02fa-4043-bf62-5e1bbbfef3fd)
