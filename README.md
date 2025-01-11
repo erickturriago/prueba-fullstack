@@ -30,6 +30,7 @@ project/
     ├── src/             # Código fuente de Angular
     ├── angular.json     # Configuración del proyecto Angular
     └── package.json     # Dependencias del frontend
+```
 
 ## Instalación
 
@@ -42,7 +43,7 @@ project/
    cd backend
    npm install
    ```
-4. Configurar variables de entorno
+4. Configurar variables de entorno (archivo .env)
    ```js
     DB_USER=postgres
     DB_HOST=localhost
@@ -57,9 +58,26 @@ project/
    npm install
 
 ## Ejecutar el Backend
+```sh
+cd backend
+node index.js
+```
 
 ## Ejecutar el Frontend
+```sh
+cd frontend
+ng serve
+```
 
 ## Script de Base de Datos
+
+```sql
+CREATE TABLE IF NOT EXISTS usuarios (
+ id SERIAL PRIMARY KEY,
+ nombre VARCHAR(100),
+ correo VARCHAR(100),
+ edad INT
+);
+```
 
 ## Pruebas del Proyecto
