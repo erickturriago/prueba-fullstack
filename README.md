@@ -78,6 +78,18 @@ CREATE TABLE IF NOT EXISTS usuarios (
  correo VARCHAR(100),
  edad INT
 );
+
+INSERT INTO usuarios (nombre, correo, edad) VALUES
+('Juan Pérez', 'juan.perez@example.com', 30),
+('María López', 'maria.lopez@example.com', 25),
+('Carlos Gómez', 'carlos.gomez@example.com', 40),
+('Ana Torres', 'ana.torres@example.com', 35),
+('Luis Ramírez', 'luis.ramirez@example.com', 28),
+('Sofía Vargas', 'sofia.vargas@example.com', 22),
+('Miguel Castillo', 'miguel.castillo@example.com', 45),
+('Laura Fernández', 'laura.fernandez@example.com', 31),
+('Pedro Martínez', 'pedro.martinez@example.com', 38),
+('Lucía Morales', 'lucia.morales@example.com', 26);
 ```
 
 ## Pruebas del Proyecto
