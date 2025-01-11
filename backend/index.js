@@ -1,5 +1,8 @@
 import express from 'express';
+import { config } from 'dotenv';
 const app = express();
+config()
+
 
 app.get('/', (req, res) => {
   const name = process.env.NAME || 'World';
