@@ -1,7 +1,11 @@
 import express from 'express';
-import { config } from 'dotenv';
-const app = express();
 import userRoutes from './app/routes/userRoutes.js';
+import cors from 'cors';
+import { config } from 'dotenv';
+
+const app = express();
+app.use(cors());
+
 config()
 
 app.use('/api/users', userRoutes);

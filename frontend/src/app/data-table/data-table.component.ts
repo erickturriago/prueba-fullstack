@@ -13,11 +13,10 @@ export class DataTableComponent implements OnInit{
   data: any[] = [];
 
   ngOnInit(): void {this.fetchData()}
-  // ngOnInit(): void {console.log("hola");}
 
   fetchData(){
     this.httpClient
-    .get<any[]>('https://localhost:3000')
+    .get<any[]>('http://localhost:3000/api/users')
     .subscribe((data)=>{
       console.log(data);
       this.data=data;
