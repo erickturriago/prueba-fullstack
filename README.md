@@ -17,11 +17,12 @@ Este proyecto consiste en un backend desarrollado con **Node.js** y **Express**,
 project/
 │
 ├── backend/
-│   ├── config/          # Configuración de la base de datos
-│   ├── controllers/     # Lógica de control
-│   ├── dao/             # Acceso a datos
-│   ├── services/        # Lógica de negocio
-│   ├── routes/          # Definición de rutas
+│   ├── app/             # Carpeta principal de la lógica del backend
+│   │   ├── config/          # Configuración de la base de datos
+│   │   ├── controllers/     # Lógica de control
+│   │   ├── dao/             # Acceso a datos
+│   │   ├── services/        # Lógica de negocio
+│   │   ├── routes/          # Definición de rutas
 │   ├── .env             # Variables de entorno
 │   ├── index.js         # Archivo principal del backend
 │   └── package.json     # Dependencias del backend
