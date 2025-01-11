@@ -93,3 +93,9 @@ INSERT INTO usuarios (nombre, correo, edad) VALUES
 ```
 
 ## Pruebas del Proyecto
+
+Prueba de Backend usando Thunder Client
+![App Fullstack Test Backend](https://github.com/user-attachments/assets/35834bb9-f9ce-4589-9776-291d1827f583)
+
+Prueba de Frontend
+
