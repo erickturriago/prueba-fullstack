@@ -1,13 +1,10 @@
 import express from 'express';
 import { config } from 'dotenv';
 const app = express();
+import userRoutes from './app/routes/userRoutes.js';
 config()
 
-
-app.get('/', (req, res) => {
-  const name = process.env.NAME || 'World';
-  res.send(`Hello ${name}!`);
-});
+app.use('/api/users', userRoutes);
 
 const port = parseInt(process.env.PORT) || 3000;
 app.listen(port, () => {
