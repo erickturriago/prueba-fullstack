@@ -30,3 +30,36 @@ project/
     ├── src/             # Código fuente de Angular
     ├── angular.json     # Configuración del proyecto Angular
     └── package.json     # Dependencias del frontend
+
+## Instalación
+
+2. Clonar el repositorio
+   ```sh
+   git clone https://github.com/erickturriago/prueba-fullstack.git
+   ```
+3. Instalar dependencias del Backend
+   ```sh
+   cd backend
+   npm install
+   ```
+4. Configurar variables de entorno
+   ```js
+    DB_USER=postgres
+    DB_HOST=localhost
+    DB_NAME=db-prueba-fullstack
+    DB_PASSWORD=postgres
+    DB_PORT=5432
+    PORT=3000
+   ```
+5. Instalar dependencias del Frontend
+   ```sh
+   cd frontend
+   npm install
+
+## Ejecutar el Backend
+
+## Ejecutar el Frontend
+
+## Script de Base de Datos
+
+## Pruebas del Proyecto
